@@ -22,7 +22,7 @@ import Allorders from './components/Allorders/Allorders';
 
 
 let routers= createBrowserRouter([
-  {path:'/', element:<LayOut/>,children:[
+  {path:'', element:<LayOut/>,children:[
     {index:true,element:<ProtactedRoutes><Home/></ProtactedRoutes>},
     {path:'products', element:<ProtactedRoutes><Products/></ProtactedRoutes>},
     {path:'catgories', element:<ProtactedRoutes><Catgories/></ProtactedRoutes>},
